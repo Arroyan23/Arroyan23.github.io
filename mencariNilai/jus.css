@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  color: #02475e;
+  font-family: arial;
+}
+
+input {
+  width: 530px;
+  height: 50px;
+  margin: 10px;
+}
+
+.button button {
+  width: 539px;
+  height: 50px;
+  border: none;
+  margin: 10px;
+  background-color: #02475e;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonKembali button {
+  width: 100px;
+  height: 45px;
+  border: none;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.hasilrata {
+  width: 150px;
+  height: 45px;
+  background-color: white;
+  border: 2px solid #02475e;
+}
+
+.buttonKembali {
+  margin: 10px;
+}
+
+.kemana {
+  width: 150px;
+  height: 45px;
+  background-color: white;
+  border: 2px solid #02475e;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  input {
+    width: 350px;
+    height: 50px;
+  }
+  .button button {
+    width: 350px;
+    height: 50px;
+  }
+}

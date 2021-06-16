@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 3000px;
+}
+
+.heading {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+}
+
+.kotak1 {
+  margin-left: 50px;
+  margin-top: 60px;
+  border: 2px solid green;
+  width: 500px;
+  height: 180px;
+}
+
+.kotak1 input {
+  width: 380px;
+  margin: 20px;
+  margin-top: -20px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.kotak1 p {
+  margin-left: 20px;
+}
+
+.kotak1 button {
+  margin-left: 20px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.expense {
+  margin-left: 50px;
+  margin-top: 70px;
+  border: 2px solid red;
+  width: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.expense input {
+  width: 380px;
+  height: 40px;
+}
+
+.program1 {
+  float: right;
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  flex-direction: column;
+}
+
+.display {
+  display: flex;
+}
+
+.container1 {
+  float: left;
+}
+
+.jarak {
+  margin: 30px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.logik {
+  display: flex;
+  margin-left: 100px;
+}
+
+.logik p {
+  padding-right: 155px;
+}
+
+.errorHandling {
+  width: 500px;
+  height: 50px;
+  background-color: red;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}

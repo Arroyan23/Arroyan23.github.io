@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="finance2.css" />
+  </head>
+  <body>
+    <div class="container1">
+      <div class="heading">
+        <h1>budget app</h1>
+      </div>
+      <div class="banyakan"></div>
+      <div class="kotak1">
+        <p>Please enter your budget</p>
+
+        <input type="text" class="input1" />
+        <br />
+        <button>Calculate</button>
+      </div>
+
+      <div class="expense">
+        <p>Please Enter Your Expense</p>
+        <input type="text" />
+        <p>Please Enter Expense Amount</p>
+        <input type="text" class="input2" />
+        <br />
+        <button>Add Expense</button>
+      </div>
+    </div>
+
+    <div class="program1">
+      <div class="display">
+        <div class="uang jarak">
+          <p>BUDGET</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="#185ADB" class="bi bi-cash" viewBox="0 0 16 16">
+            <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+            <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z" />
+          </svg>
+          <p class="inner1 coba1">$0</p>
+        </div>
+
+        <div class="expenses jarak">
+          <p>EXPENSES</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="#185ADB" class="bi bi-credit-card" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z" />
+            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z" />
+          </svg>
+          <p class="p3 coba2">$0</p>
+        </div>
+        <div class="balance jarak">
+          <p>BALANCE</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="#185ADB" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+            <path
+              d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"
+            />
+          </svg>
+          <p class="p2">$0</p>
+        </div>
+      </div>
+      <div class="penghitungan">
+        <div class="logik">
+          <p>Expense title</p>
+          <p>Expense value</p>
+        </div>
+      </div>
+      <div class="penambahan"></div>
+    </div>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
