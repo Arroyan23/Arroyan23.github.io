@@ -10,13 +10,18 @@ button.addEventListener('click', function(){
   tambah.appendChild(bnyk);
   forList.appendChild(tambah);
   const tambah2 = document.createElement('span');
-  const bnyk2 = document.createTextNode('x')
+  const bnyk2 = document.createTextNode('\u00D7')
   tambah2.appendChild(bnyk2);
   tambah.appendChild(tambah2);
   tambah.classList.add('kelasBaru');
   forList.style.display = 'flex';
-    tambah2.addEventListener('click', function(){
-      forList.style.display = 'none';
-    })
 });
 
+const utkTutup = document.getElementsByTagName('span')[i];
+var i;
+for(i = 0; i < utkTut.length; i++) {
+  utkTut[i].onclick = function(){
+  const div = this.parentElement;
+  div.style.display = 'none';
+  }
+}
