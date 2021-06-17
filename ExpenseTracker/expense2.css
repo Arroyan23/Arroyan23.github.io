@@ -52,3 +52,27 @@ body {
   justify-content: center;
   flex-direction: row;
 }
+
+.logic ul li{
+  list-style: none;
+  float: left;
+  padding : 0px 150px;
+}
+
+.logic2{
+  text-align: center;
+  display : flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.logic ul{
+  text-align: center;
+  margin : 15px;
+}
+
+.logic2 ul li{
+  float : left;
+  list-style: none;
+  padding: 0px 150px;
+}
