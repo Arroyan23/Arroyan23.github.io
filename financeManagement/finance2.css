@@ -50,6 +50,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .untukList p {
@@ -63,6 +64,11 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   position: relative;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
 }
 
 .untukList span {
@@ -73,4 +79,21 @@ body {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.delete {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: red;
+}
+
+.completed {
+  text-decoration: line-through;
 }

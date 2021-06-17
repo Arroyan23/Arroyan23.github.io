@@ -1,33 +1,34 @@
-//memberikan close
-
-//hilang saat di pencet
-
-// menambahkan new Element
-
-const p = document.querySelector(".untukList");
-const input = document.querySelector(".input input");
-
-function newElement() {
-  const value = input.value;
-  const baru = document.createElement("p");
-  const sambung = document.createTextNode(value);
-  baru.appendChild(sambung);
-  if (value === "") {
-    alert("Please Input Your Text");
+function diclick() {
+  const banyak = document.querySelector(".inputTodo");
+  const valuenya = banyak.value;
+  const kelas = document.querySelector(".untukList");
+  if (valuenya === "") {
+    alert("Please insert a task");
   } else {
-    p.appendChild(baru);
+    kelas.innerHTML += `<div class = "task"> 
+                          <p id = "span">
+                            ${document.querySelector(".inputTodo").value} <button class = "delete"><i class="bi bi-trash-fill"></i></button>
+                          </p>
+                         
+                        </div>`;
   }
 
-  const span = document.createElement("span");
-  const textNode = document.createTextNode("\u00D7");
-  span.appendChild(textNode);
-  span.className = "close";
-  baru.appendChild(span);
-
-  const byk2 = document.getElementsByClassName("close");
+  const del = document.querySelectorAll(".delete");
   var i;
-  close[i].onclick = function () {
-    var div = this.parentElement;
-    div.style.display = "none";
-  };
+  for (i = 0; i < del.length; i++) {
+    del[i].onclick = function () {
+      this.parentNode.remove();
+    };
+  }
+
+  const comp = document.querySelectorAll(".task");
+
+  var a;
+  for (a = 0; a < comp.length; a++) {
+    comp[a].onclick = function () {
+      this.classList.toggle("completed");
+    };
+  }
+
+  banyak.value = "";
 }
