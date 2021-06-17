@@ -4,6 +4,7 @@ function diclick() {
   const kelas = document.querySelector(".untukList");
   const awal = document.querySelector(".pengawalan");
   var mer = document.querySelector(".pengawalan p");
+  
   if (valuenya === "") {
     awal.classList.add("merah");
     mer.innerHTML = "Please insert your tasks";
