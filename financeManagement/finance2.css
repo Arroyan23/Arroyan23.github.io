@@ -6,6 +6,10 @@
 body {
   padding: 0;
   margin: 0;
+  background: #2b5876; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 15rem;
 }
 
 .jumbotron {
@@ -33,6 +37,16 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  background-color: #77acf1;
+  width: 500px;
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.pertengahan {
+  display: flex;
+  justify-content: center;
 }
 
 .input input {
@@ -42,7 +56,8 @@ body {
 
 .input button {
   width: 40px;
-  height: 45px;
+  height: 43px;
+  cursor: pointer;
 }
 
 .untukList {
@@ -51,6 +66,11 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
+  background-color: #77acf1;
+  margin-top: 40px;
+  width: 500px;
+  min-height: 100px;
+  border-radius: 10px;
 }
 
 .untukList p {
@@ -60,7 +80,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   position: relative;
@@ -96,4 +116,31 @@ body {
 
 .completed {
   text-decoration: line-through;
+}
+
+.per2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomBackground a {
+  text-decoration: none;
+  color: black;
+}
+
+.merah {
+  background-color: rgba(184, 60, 38, 0.747);
+  width: 500px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
 }
