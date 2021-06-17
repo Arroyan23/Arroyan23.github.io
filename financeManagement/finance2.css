@@ -108,9 +108,14 @@ body {
   right: 0;
   border: none;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .delete:hover {
+  background-color: red;
+}
+
+.delete:active{
   background-color: red;
 }
 
@@ -143,4 +148,31 @@ body {
 .container {
   display: flex;
   justify-content: center;
+}
+
+.untukList h2{
+  opacity: 0.5;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  .input{
+    width: 350px;
+    height : 100px;
+  }
+
+  .input input{
+    width: 250px;
+    height: 40px;
+  }
+
+  .untukList{
+    width: 320px;
+    max-height: 100px;
+  }  
+
+  .untukList p{
+    width : 250px;
+    height : 50px;
+  }
 }
