@@ -1,27 +1,33 @@
-const input1 = document.querySelector('.input input');
-const button = document.querySelector('.input button');
+//memberikan close
 
+//hilang saat di pencet
 
-button.addEventListener('click', function(){
-  const forList = document.querySelector('.untukList');
-  var input2 = input1.value;
-  const tambah = document.createElement('p');
-  const bnyk = document.createTextNode(input2);
-  tambah.appendChild(bnyk);
-  forList.appendChild(tambah);
-  const tambah2 = document.createElement('span');
-  const bnyk2 = document.createTextNode('\u00D7')
-  tambah2.appendChild(bnyk2);
-  tambah.appendChild(tambah2);
-  tambah.classList.add('kelasBaru');
-  forList.style.display = 'flex';
-});
+// menambahkan new Element
 
-const utkTutup = document.getElementsByTagName('span')[i];
-var i;
-for(i = 0; i < utkTut.length; i++) {
-  utkTut[i].onclick = function(){
-  const div = this.parentElement;
-  div.style.display = 'none';
+const p = document.querySelector(".untukList");
+const input = document.querySelector(".input input");
+
+function newElement() {
+  const value = input.value;
+  const baru = document.createElement("p");
+  const sambung = document.createTextNode(value);
+  baru.appendChild(sambung);
+  if (value === "") {
+    alert("Please Input Your Text");
+  } else {
+    p.appendChild(baru);
   }
+
+  const span = document.createElement("span");
+  const textNode = document.createTextNode("\u00D7");
+  span.appendChild(textNode);
+  span.className = "close";
+  baru.appendChild(span);
+
+  const byk2 = document.getElementsByClassName("close");
+  var i;
+  close[i].onclick = function () {
+    var div = this.parentElement;
+    div.style.display = "none";
+  };
 }
