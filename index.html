@@ -11,39 +11,41 @@
   <body>
     <!-- navbar -->
     <div class="navio">
-      <div class="h1">
-        <h1>Arroyan</h1>
+      <div class="menu1">
+        <div class="h1">
+          <h1>Arroyan</h1>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="https://twitter.com/OyengRyn" target="_blank"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://instagram.com/yeng_ryn" target="_blank"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/royan.syawqi" target=" _blank"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=6281218012006" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="menu">
+      <div class="humburger">
+        <span class="r1"></span>
+        <span class="r2"></span>
+        <span class="r3"></span>
+      </div>
+
+      <div class="barulagi1">
         <ul>
-          <li>
-            <a href="https://twitter.com/OyengRyn" target="_blank"><i class="bi bi-twitter"></i></a>
-          </li>
-          <li>
-            <a href="https://instagram.com/yeng_ryn" target="_blank"><i class="bi bi-instagram"></i></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/royan.syawqi" target=" _blank"><i class="bi bi-facebook"></i></a>
-          </li>
-          <li>
-            <a href="https://api.whatsapp.com/send?phone=6281218012006" target="_blank"><i class="bi bi-whatsapp"></i></a>
-          </li>
-        </ul>
-        <div class="humburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class = "barulagi1">
-        <ul>
-          <li>Twitter</li>
-          <li>instagram</li>
-          <li>Facebook</li>
-          <li>whatsapp</li>
+          <li class="twt1" onclick="clik1()">Twitter</li>
+          <li class="igt2" onclick="clik2()">instagram</li>
+          <li class="fcb1" onclick="clik3()">Facebook</li>
+          <li class="wths1" onclick="clik4()">whatsapp</li>
         </ul>
       </div>
-      </div>
-      
     </div>
     <!-- akhir navbar -->
     <!-- jumbotron -->
@@ -69,45 +71,42 @@
     </div>
 
     <div class="container2">
-      
-        <div class="mencariNilai" onclick="kelas1()">
-          <p>Program</p>
-          <div class="logo">
-            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M14 13.9633H16V7.96331H10V9.96331H12.5858L7.25623 15.2929L8.67044 16.7071L14 11.3775V13.9633Z" fill="currentColor" />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M23 19C23 21.2091 21.2091 23 19 23H5C2.79086 23 1 21.2091 1 19V5C1 2.79086 2.79086 1 5 1H19C21.2091 1 23 2.79086 23 5V19ZM19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H19C20.1046 3 21 3.89543 21 5V19C21 20.1046 20.1046 21 19 21Z"
-                fill="currentColor"
-              />
-            </svg>
-          </div>
-          <h2>Mencari Nilai</h2>
-        </div>
-      
-     
-        <div class="penerbangan" onclick = "kelas2()">
-          <p>Program</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bank2" viewBox="0 0 16 16">
+      <div class="mencariNilai" onclick="kelas1()">
+        <p>Program</p>
+        <div class="logo">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 13.9633H16V7.96331H10V9.96331H12.5858L7.25623 15.2929L8.67044 16.7071L14 11.3775V13.9633Z" fill="currentColor" />
             <path
-              d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M23 19C23 21.2091 21.2091 23 19 23H5C2.79086 23 1 21.2091 1 19V5C1 2.79086 2.79086 1 5 1H19C21.2091 1 23 2.79086 23 5V19ZM19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H19C20.1046 3 21 3.89543 21 5V19C21 20.1046 20.1046 21 19 21Z"
+              fill="currentColor"
             />
           </svg>
-          <h2>Budget App</h2>
         </div>
-      
-      
-        <div class="rentalMobil" onclick="kelas3()">
-          <p>Program</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
-            <path
-              d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"
-            />
-          </svg>
-          <h2>Rental Mobil</h2>
-        </div>
-      
+        <h2>Mencari Nilai</h2>
+      </div>
+
+      <div class="penerbangan" onclick="kelas2()">
+        <p>Program</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bank2" viewBox="0 0 16 16">
+          <path
+            d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z"
+          />
+        </svg>
+        <h2>Budget App</h2>
+      </div>
+
+      <div class="rentalMobil" onclick="kelas3()">
+        <p>Program</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
+          <path
+            d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"
+          />
+        </svg>
+        <h2>Rental Mobil</h2>
+      </div>
+
       <div class="sewaParkir">
         <p>Program</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag-dash-fill" viewBox="0 0 16 16">
