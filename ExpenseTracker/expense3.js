@@ -21,7 +21,7 @@ button1.addEventListener("click", function () {
     var ab = confirm("Please insert a value");
     if (ab === true) {
     } else {
-      location.href = "https://api.whatsapp.com/send?phone=6281218012006";
+      location.href = "../index.html";
       alert("Ok get out");
     }
   } else {
